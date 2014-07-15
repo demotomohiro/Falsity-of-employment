@@ -1,4 +1,9 @@
-Falsity-of-employment
-=====================
+雇用の欺瞞
+===============
+Tokyo Demo Fest 2014で公開したPC 4k introのソースコード.
 
-正式名称は"雇用の欺瞞"です。 Tokyo Demo Fest 2014で公開した4k introのソースコードです。
+作者: Tomohiro
+
+メガデモコンサルタント: hole, q
+
+This software is released under the MIT License, see LICENSE.txt.

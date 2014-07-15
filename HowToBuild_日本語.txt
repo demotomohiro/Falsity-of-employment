@@ -1,0 +1,60 @@
+・必要なもの
+Visual Studio Express 2012 for Windows Desktop
+ビルドとかデバッグに必要。
+必須
+
+Boost
+http://www.boost.org/
+Boost::WaveがGLSLのプリプロセッサとして使われている。
+必須
+
+glew4kb
+https://github.com/demotomohiro/glew4kb
+4k introでOpenGLの拡張関数を簡単に使えるようにする。
+必須
+
+The OpenGL Extension Wrangler Library (GLEW)
+http://glew.sourceforge.net/
+OpenGLの拡張関数を簡単に使えるようにする定番ライブラリ。
+デバッグビルドのときに使用.
+必須
+
+CRINKLER
+http://www.crinkler.net/
+実行ファイルが小さくなるように圧縮してくれる。
+その代わりにアンチウイルスソフトに誤検出されやすくなる。
+無くても実行ファイルをビルドする事はできるがファイルサイズが大きくなる。
+
+Shader Minifier
+http://www.ctrl-alt-test.fr/?page_id=7
+https://github.com/laurentlb/Shader_Minifier
+シェーダのソースコードをCRINKLERで小さく圧縮されるように変換してくれる。
+ソースコードにShader Minifierで圧縮したコードが含まれているので,
+シェーダを変更して4k introをビルドするとき以外は不要。
+
+・ビルド手順
+以下のコマンドでlib4kbとglew4kbをダウンロードする。
+git clone https://github.com/demotomohiro/lib4kb.git
+cd lib4kb/tofu/opengl/
+git clone https://github.com/demotomohiro/glew4kb.git
+cd ../../../
+雇用の欺瞞のソースコードをダウンロードする。
+git clone https://github.com/demotomohiro/Falsity-of-employment.git
+cd Falsity-of-employment/
+Visual Studioでproject/jupiter.slnを開く。
+Debug構成⇒構成プロパティ⇒デバッグ⇒作業ディレクトリを$(ProjectDir)..\に変更。
+Debug構成でデバッグ開始する。
+(デバッグビルドを1度実行しないと4k introをビルドできない)
+(デバッグビルドを実行すると, glew4kbがプログラムで使われる拡張関数を調べて, 4k
+introのビルドに必要なヘッダファイルを生成する)
+実行ファイルを圧縮したい場合はCRINKLERの実行ファイル名をlink.exeに変更して
+projectディレクトリに入れる。
+Demo*構成をビルドすると4k introがビルドされる。
+Release構成では4k introとほぼ同じ動作をするが, エラーチェックが行われる。
+
+シェーダ(拡張子が*.s, *.fs, *.vsのファイル)を変更して4k introをビルドしたい場合は
+Shader Minifierの実行ファイル(shader_minifier.exe)をlib4kb/binへコピーして
+minify_shader.batを実行する。
+シェーダが圧縮されて拡張子に.hppがついたファイルが出力される。
+あとはDemo*構成をビルドすると変更されたシェーダが埋め込まれた4k introがビルドされる.
+デバッグビルド時は実行時にシェーダが読み込まれるので上記の手順は不要。

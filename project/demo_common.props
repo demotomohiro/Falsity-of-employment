@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+    <_PropertySheetDisplayName>demo_common</_PropertySheetDisplayName>
+    <OutDir>..\$(ProjectName)\</OutDir>
+    <GenerateManifest>false</GenerateManifest>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\..\lib4kb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEMO_MODE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AssemblerOutput>All</AssemblerOutput>
+      <CallingConvention>FastCall</CallingConvention>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/CRINKLER /COMPMODE:SLOW %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_$(Configuration).exe</OutputFile>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

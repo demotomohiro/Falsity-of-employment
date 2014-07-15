@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugDemo|Win32">
+      <Configuration>DebugDemo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo1024x768|Win32">
+      <Configuration>Demo1024x768</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo1280x1024|Win32">
+      <Configuration>Demo1280x1024</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo1280x720|Win32">
+      <Configuration>Demo1280x720</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo1280x800|Win32">
+      <Configuration>Demo1280x800</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo1368x768|Win32">
+      <Configuration>Demo1368x768</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo1440x900|Win32">
+      <Configuration>Demo1440x900</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo1600x1200|Win32">
+      <Configuration>Demo1600x1200</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo1680x1050|Win32">
+      <Configuration>Demo1680x1050</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo1920x1080|Win32">
+      <Configuration>Demo1920x1080</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo1920x1200|Win32">
+      <Configuration>Demo1920x1200</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo800x600|Win32">
+      <Configuration>Demo800x600</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo|Win32">
+      <Configuration>Demo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{524F0228-2D95-45D3-AE30-FBBCB0B1D69E}</ProjectGuid>
+    <RootNamespace>jupiter</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>jupiter</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugDemo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1920x1200|Win32'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1920x1080|Win32'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1680x1050|Win32'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1600x1200|Win32'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1440x900|Win32'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1368x768|Win32'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1280x1024|Win32'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1280x800|Win32'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1280x720|Win32'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1024x768|Win32'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo800x600|Win32'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo|Win32'" Label="Configuration">
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugDemo|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo1920x1200|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="demo_common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo1920x1080|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="demo_common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo1680x1050|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="demo_common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo1600x1200|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="demo_common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo1440x900|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="demo_common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo1368x768|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="demo_common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo1280x1024|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="demo_common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo1280x800|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="demo_common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo1280x720|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="demo_common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo1024x768|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="demo_common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo800x600|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="demo_common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="demo_common.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\$(ProjectName)\</OutDir>
+    <TargetName>$(ProjectName)_debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo800x600|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1024x768|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1280x720|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1280x800|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1280x1024|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1368x768|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1440x900|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1600x1200|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1680x1050|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1920x1080|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo1920x1200|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugDemo|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\lib4kb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;DEBUG;_DEBUG;_WINDOWS;WIDTH=1244;HEIGHT=700;WIDTHS="800";HEIGHTS="600";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996;4725;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AdditionalOptions>/Zm200 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glew32s.lib;opengl32.lib;glu32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\lib4kb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;WIDTH=800;HEIGHT=600;WIDTHS="800";HEIGHTS="600";USE_SMALL_SHADER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AssemblerOutput>All</AssemblerOutput>
+      <WarningLevel>Level4</WarningLevel>
+      <DisableSpecificWarnings>4819;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glew32s.lib;opengl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIDTH=1280;HEIGHT=1024;WIDTHS="1280";HEIGHTS="1024";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/report:report.html %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo800x600|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIDTH=800;HEIGHT=600;WIDTHS="800";HEIGHTS="600";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo1024x768|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIDTH=1024;HEIGHT=768;WIDTHS="1024";HEIGHTS="768";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo1280x720|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIDTH=1280;HEIGHT=720;WIDTHS="1280";HEIGHTS="720";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo1280x800|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIDTH=1280;HEIGHT=800;WIDTHS="1280";HEIGHTS="800";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo1280x1024|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIDTH=1280;HEIGHT=1024;WIDTHS="1280";HEIGHTS="1024";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo1368x768|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIDTH=1368;HEIGHT=768;WIDTHS="1368";HEIGHTS="768";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo1440x900|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIDTH=1440;HEIGHT=900;WIDTHS="1440";HEIGHTS="900";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo1600x1200|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIDTH=1600;HEIGHT=1200;WIDTHS="1600";HEIGHTS="1200";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo1680x1050|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIDTH=1680;HEIGHT=1050;WIDTHS="1680";HEIGHTS="1050";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo1920x1080|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIDTH=1920;HEIGHT=1080;WIDTHS="1920";HEIGHTS="1080";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo1920x1200|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIDTH=1920;HEIGHT=1200;WIDTHS="1920";HEIGHTS="1200";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugDemo|Win32'">
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\lib4kb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;WIDTH=1280;HEIGHT=1024;WIDTHS="1366";HEIGHTS="768";DEMO_MODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling />
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <AssemblerOutput>All</AssemblerOutput>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>FastCall</CallingConvention>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\demomain.cpp" />
+    <ClCompile Include="..\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugDemo|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo1024x768|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo1280x1024|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo1280x720|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo1280x800|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo1368x768|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo1440x900|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo1600x1200|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo1680x1050|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo1920x1080|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo1920x1200|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo800x600|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
